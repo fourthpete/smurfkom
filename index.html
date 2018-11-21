@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Smurf-kom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        SMURF-KOM
+      </div>
+      <div class="art-grid">
+        <div class="art" style="grid-column: 1/3;">
+          <div class="art-head">
+            O NAS
+          </div>
+          <div class="art-cont">
+            Każda marka ma swoją historię. Nasza rozpoczęła się zaledwie rok temu, z chwilą otwarcia pierwszego salonu stacjonarnego w Kętach. Od tego czasu nieustannie rozwijamy się,
+            dzięki czemu jesteśmy ekspertami w branży komputerowej.
+
+            Łączymy nasze dwie główne kompetencje – empatię i technologię,
+            co pozwala nam lepiej rozumieć oczekiwania i potrzeby Klientów.
+            Słuchamy ich pragnień i rozumiemy obawy związane z zakupem sprzętu.
+            Pozostajemy też otwarci na ich sugestie oferując najbardziej optymalne rozwiązania zapewniające jak najwięcej satysfakcji z zakupów.
+          </div>
+        </div>
+        <div class="art" style="grid-column: 3/4; grid-row: 1/2;">
+          <div class="art-head">
+            GDZIE?
+          </div>
+          <div class="art-cont">
+            Nasza główna siedziba znajduję się w Kętach, a dodatkowa w Krakowie.<br>
+            Z myślą o klientach z innych lokalizacji, praktycznie wszystkie nasze produkty są dostępne w internecie, na rozmaitych stronach do sprzedaży, np. Allegro.
+          </div>
+        </div>
+        <div class="art" style="grid-column: 1/2; grid-row: 2/4;">
+          <div class="art-head">
+            KONTAKT
+          </div>
+          <div class="art-cont">
+            Nasza infolinia znajduje się pod numerem <br>
+            -570 632 684 <br>
+            <img src="call center.jpg" style="width: 60%; margin: auto; margin-top: 20px; display: inline-block;"><br><br>
+            Zapraszamy również do zadawania pytań osobiście w naszych salonach,<br>
+            lub kontaktu przez email, na:<br>
+            kontakt@smurfkom.pl
+          </div>
+        </div>
+        <div class="art" style="grid-column: 2/4; grid-row: 2/4;">
+          <div class="art-head">
+            GALERIA
+          </div>
+          <div class="art-cont" style="height: 80%; overflow: hidden;">
+            <div class="carousel" style="text-align: center;">
+              <img src="pics/1.jpg" height="80%" style="width: 80%; margin: auto; margin-top: 20px; display: inline-block;">
+              <img src="pics/2.jpg" height="80%" style="width: 80%; margin: auto; margin-top: 20px; display: inline-block;">
+              <img src="pics/3.jpg" height="80%" style="width: 80%; margin: auto; margin-top: 20px; display: inline-block;">
+              <img src="pics/4.jpg" height="80%" style="width: 80%; margin: auto; margin-top: 20px; display: inline-block;">
+              <img src="pics/5.jpg" height="80%" style="width: 80%; margin: auto; margin-top: 20px; display: inline-block;">
+            </div>
+            <script type="text/javascript">
+              $(document).ready(function(){
+                $('.carousel').slick({
+                  autoplay: true,
+                  autoplaySpeed: 2000,
+                  arrows: false
+                });
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

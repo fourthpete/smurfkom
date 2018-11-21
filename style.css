@@ -58,3 +58,7 @@ body {
   font-size: 18px;
   padding-left: 15px;
 }
+
+.no-elo {
+  background-color: gray; 
+}
